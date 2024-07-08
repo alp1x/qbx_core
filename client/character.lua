@@ -506,7 +506,6 @@ CreateThread(function()
         if NetworkIsSessionStarted() then
             pcall(function() exports.spawnmanager:setAutoSpawn(false) end)
             Wait(250)
-            randomPed()
             chooseCharacter()
             break
         end
